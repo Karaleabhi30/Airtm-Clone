@@ -1,0 +1,126 @@
+@media screen and (max-width:600px) {
+    .brand img{
+       width: 100px;
+    }
+
+    .nav{
+        font-size: 1rem;
+    }
+
+    .join{
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .join button{
+        margin-right: 20px;
+    }
+   
+    .body{
+        justify-content: space-around;
+        
+    }
+
+    .body h1{
+        font-size: 1.5rem;
+    }
+
+    .features{
+    flex-wrap: wrap;
+    justify-content: space-around;
+     
+    }
+
+    .money{
+        width: 130px;
+    }
+
+    .security{
+        width: 120px;
+        height: 22vh;
+    }
+
+    .network{
+        width: 130px; 
+        margin-top: 20px;
+    }
+
+    .legit{
+        width: 130px;
+        height: 16vh;
+        margin-top: 20px;
+    }
+
+    .ui-card{
+        margin-top: 200px;
+      flex-direction: column;
+      text-align: center;
+      width: 100vw;
+      align-items: center;
+    }
+
+    .start{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+
+        gap: 20px;
+    }
+
+    .join2{
+        margin-left: 155px;
+    }
+
+    .level{
+    margin-left: 20px;
+    }
+
+    .networks .methods{
+        font-size: 1.2rem;
+    }
+    
+    .networks{
+        gap: 0px;
+    }
+    .networks .transaction{
+        font-size: 1.2rem;
+        /* margin-right: 100px; */
+    }
+
+    .networks .glb{
+        font-size: 1.2rem;
+    }
+
+    .card4{
+        flex-direction: column;
+        align-items: center;
+        /* width: 100vw; */
+    }
+
+    .card4 img{
+        width: 400px;
+    }
+
+    .contact1{
+        flex-direction: column;
+        width: 80vw;
+        align-items: center;
+    }
+    .Faqs{
+        width: 50px;
+    }
+
+    .contact{
+        width: 50px;
+    }
+
+    .flex2{
+        flex-wrap: wrap;
+
+    }
+
+   .sub-footer{
+    margin-top: 390px;
+   }
+
+}

@@ -1,0 +1,335 @@
+body{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+background-image: url("https://airtm.com/wp-content/themes/airtm-theme/assets/images/png/arcoiris.png");
+}
+
+
+
+:root{
+    --primary-color:white;
+    --secondary-color:black;
+}
+
+.flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+button{
+    padding: 5px 20px ;
+}
+
+button:hover {
+    background-color: rgb(55, 171, 233);
+    color: white;
+}
+
+.thead{
+    justify-content: space-between;
+    width: 100vw;
+    height: 30px;
+    background-color: var(--primary-color);
+    align-items: center;
+    position: overflow;
+}
+
+.language{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 5px 20px;
+}
+
+.right{
+  margin: none;
+}
+
+/* navbar */
+
+.navbar{
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    align-items: center;
+    font-size: 1.3rem;
+    /* position: fixed; */
+}
+
+ul {
+    list-style: none;
+    color: antiquewhite;
+    gap: 25px;
+}
+
+.nav select{
+    margin-left: 20px;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.join{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    gap: 40px;
+}
+
+.join button{
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.join span{
+ padding-top: 10px;
+}
+
+.join:hover{
+    color: rgb(55, 199, 239);
+}
+
+/* body */
+
+.body{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+    /* background-color: rgb(212, 171, 171); */
+}
+
+.button{
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+/* features */
+
+.features{
+    height: 40vh;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    /* background-color: rgb(223, 237, 237); */
+}
+
+.money{
+    background-color: aliceblue;
+    padding: 40px 60px;
+    border-radius: 10px;
+}
+
+.security{
+    background-color: aliceblue;
+    padding: 30px 60px;
+    border-radius: 10px;
+}
+
+.network{
+    background-color: aliceblue;
+    padding: 30px 60px;
+    border-radius: 10px;
+}
+
+.legit{
+    background-color: aliceblue;
+    padding: 50px 60px;
+    border-radius: 10px;
+}
+
+/* ui-features */
+
+.ui-card {
+    gap: 40px;
+    justify-content: center;
+ 
+}
+
+.Add{
+    border: 1px solid black;
+    padding:40px;
+    border-radius: 10px;
+    padding-top: 70px;
+    font-size: 1.1rem;
+
+} 
+
+.withdraw{
+    border: 1px solid black;
+    padding: 80px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.send{
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.send img{
+    padding-top: 50px;
+}
+
+/* START  */
+
+.start-title h2{
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.start{
+    justify-content: space-around;
+
+   
+}
+
+.create1 {
+    border: 0.8px solid black;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 600px;
+    padding-left: 50px;
+    border-radius: 10px;
+
+}
+
+.Add2 {
+    border: 0.8px solid black;
+    margin-bottom: 50px;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+.send3 {
+    border: 0.8px solid black; 
+    margin-bottom: 50px;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+.join2 button{
+    padding: 20px 130px;
+    border-radius: 37px;
+    font-size: 1.3rem;
+    background-color: rgb(26, 171, 239);
+    color: white;
+    border: none;
+
+}
+
+/* quality */
+
+.quality-container{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.networks{
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 90vw;
+    background-color: black;
+    color: white;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+
+/* cards */
+
+.cheader{
+    margin-top: 100px;
+}
+
+.cheader{
+    margin-left: 30px;
+}
+
+.card4{
+    justify-content: center;
+    gap: 20px;
+}
+
+/* contact */
+
+.contact1{
+   margin-top: 100px;
+width: 100vw;
+font-size: 1.5rem;
+}
+
+.Faqs{
+    border: 1px solid black;
+    padding: 30px 214px;
+}
+
+.blog{
+    border: 1px solid black;
+    padding: 30px 214px;
+}
+
+.contact{
+    border: 1px solid black;
+    padding: 30px 214px;
+}
+
+.contact1 :hover{
+    background-color: rgb(11, 143, 220);
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 90vh;
+    width: 100vw;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.flex2{
+    color: white;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+/* sub header */
+
+.sub-footer{
+    height: 6vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
